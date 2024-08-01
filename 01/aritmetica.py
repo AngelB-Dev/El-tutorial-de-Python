@@ -8,5 +8,4 @@ print(' Base =', base, '\n Altura =', altura)
 area_rectangulo = base * altura
 print( '\nYá con ello usamos la formula para calcular.\n Base.Altura = Área')
 
-resultados = '\nEl área del rectángulo es: ' + str(area_rectangulo)
-print(resultados)
+print('\nEl área del rectángulo es: ' + str(area_rectangulo))

@@ -1,5 +1,4 @@
-print('1. Calcula el área de un rectángulo con base 15 y altura 8.')
-print('\nPará calcular el área del rectángulo, primero plasmamos los datos.\nDatos:')
+print('1. Calcula el área de un rectángulo con base 15 y altura 8.\n\nPará calcular el área del rectángulo, primero plasmamos los datos.\nDatos:')
 
 base = 15
 altura = 8

@@ -113,3 +113,19 @@ print(f'''
 
 {mensaje}
 ''')
+
+# 1. Evitar el uso excesivo de múltiples llamadas a print(). Utiliza cadenas multilínea con triple comillas en su lugar.
+# Incorrecto:
+# print('Así es el proceso de')
+# print('Cómo se escribe en')
+# print('multiples lineas')
+
+# 2. Utiliza triple comillas ('''...''') para manejar texto en múltiples líneas en lugar de usar \n.
+# '''...'''
+
+# 3. Utiliza f-strings para incrustar variables dentro de cadenas de texto.
+# print(f'Se sabe la {informacion}')
+
+# 4. Utilizar f-strings para imprimir variables mejora la legibilidad del código en comparación con la concatenación tradicional.
+# print('Grupos completos de 4 elementos:', completos) # mal
+# print(f'Grupos completos de 4 elementos: {completos}') # bien`
